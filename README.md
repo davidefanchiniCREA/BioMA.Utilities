@@ -11,7 +11,7 @@ This package is licensed under the [MIT License](https://licenses.nuget.org/MIT)
 
 ## Examples
 
-The whole documentation is available [here](https://dev.azure.com/BioMA-NET8/BioMA.Utilities/_git/BioMA.Utilities?path=/docs/BioMA.Utilities.md). Follwing are examples on how to use some of the most important objects
+The whole documentation is available [here](https://github.com/davidefanchiniCREA/BioMA.Utilities/blob/main/docs/BioMA.Utilities.md). Follwing are examples on how to use some of the most important objects
 
 ## ReadOnlyDictionary
 
