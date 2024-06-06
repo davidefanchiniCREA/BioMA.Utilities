@@ -15,7 +15,7 @@ The whole documentation is available [here](https://github.com/davidefanchiniCRE
 
 ## ReadOnlyDictionary
 
-It provides a [ReadOnlyDictionary](BioMA.Utilities\ReadOnlyDictionary.cs) to avoid changing key value pairs:
+It provides a [ReadOnlyDictionary](BioMA.Utilities/ReadOnlyDictionary.cs) to avoid changing key value pairs:
 
 ```
 Dictionary<string, int> backDictionary = new Dictionary<string, int>();
