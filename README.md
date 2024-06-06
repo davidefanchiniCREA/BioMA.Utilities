@@ -40,7 +40,7 @@ public class Model {
 ...
 ```
 
-2. The [ConfigurationItem](BioMA.Utilities\ConfigurationItemAttribute.cs) attribute for properties
+2. The [ConfigurationItem](BioMA.Utilities/ConfigurationItemAttribute.cs) attribute for properties
 
 ```
 ...
