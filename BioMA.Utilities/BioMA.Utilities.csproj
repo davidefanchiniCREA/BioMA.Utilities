@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyTitle>BioMA.Utilities</AssemblyTitle>
+    <Company>CREA</Company>
+    <Product>BioMA.Utilities</Product>
+    <Description>Utilities used in the BioMA framework</Description>
+    <Authors>CREA developers</Authors>
+    <Copyright>Copyright © CREA 2019</Copyright>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://bioos@dev.azure.com/bioos/BioMA.Utilities/_git/BioMA.Utilities</PackageProjectUrl>
+    <RepositoryUrl>https://bioos@dev.azure.com/bioos/BioMA.Utilities/_git/BioMA.Utilities</RepositoryUrl>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <DocumentationFile>bin\Debug\net8.0\BioMA.Utilities.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </Content>
+    <Content Include="..\docs\**\*.md">
+      <Pack>true</Pack>
+      <PackagePath>..\</PackagePath>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="ModelingSolutionsConfig.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="ParametersComponentDescriptionsConfig.Designer.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="ParametersComponentDescriptionsConfig.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="8.0.0" />
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
+  </ItemGroup>
+</Project>

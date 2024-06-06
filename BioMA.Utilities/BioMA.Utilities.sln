@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BioMA.Utilities", "BioMA.Utilities.csproj", "{A0A98A3A-1556-4329-AD8B-DFBAACCF355E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BioMA.Utilities.Tests", "..\BioMA.Utilities.Tests\BioMA.Utilities.Tests.csproj", "{CEDE3F90-6B83-44C4-805B-DE03EC82A3B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementi di soluzione", "Elementi di soluzione", "{5008D8FE-1B53-4D41-8199-BBA129BB1B4C}"
+	ProjectSection(SolutionItems) = preProject
+		..\azure-pipelines.yml = ..\azure-pipelines.yml
+		LICENSE.txt = LICENSE.txt
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0A98A3A-1556-4329-AD8B-DFBAACCF355E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0A98A3A-1556-4329-AD8B-DFBAACCF355E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0A98A3A-1556-4329-AD8B-DFBAACCF355E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0A98A3A-1556-4329-AD8B-DFBAACCF355E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEDE3F90-6B83-44C4-805B-DE03EC82A3B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEDE3F90-6B83-44C4-805B-DE03EC82A3B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEDE3F90-6B83-44C4-805B-DE03EC82A3B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEDE3F90-6B83-44C4-805B-DE03EC82A3B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99261E07-B557-4D77-9B26-61E2E06640FE}
+	EndGlobalSection
+EndGlobal
