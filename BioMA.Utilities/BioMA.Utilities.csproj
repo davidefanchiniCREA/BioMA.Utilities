@@ -13,8 +13,8 @@
     <FileVersion>1.0.0.0</FileVersion>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://bioos@dev.azure.com/bioos/BioMA.Utilities/_git/BioMA.Utilities</PackageProjectUrl>
-    <RepositoryUrl>https://bioos@dev.azure.com/bioos/BioMA.Utilities/_git/BioMA.Utilities</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/davidefanchiniCREA/BioMA.Utilities</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/davidefanchiniCREA/BioMA.Utilities.git</RepositoryUrl>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <DocumentationFile>bin\Debug\net8.0\BioMA.Utilities.xml</DocumentationFile>
   </PropertyGroup>

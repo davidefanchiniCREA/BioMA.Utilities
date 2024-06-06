@@ -29,7 +29,7 @@ Modifications to `backDictionary` will be reflected in `readOnly`, but it will n
 
 In the context of Models configuration serialization, instances and their properties that must be serialized and deserialized have to be flagged with attributes defined in this package, respectively:
 
-1. The [Configurable](BioMA.Utilities\ConfigurableAttribute.cs) attribute for types
+1. The [Configurable](BioMA.Utilities/ConfigurableAttribute.cs) attribute for types
 
 ```
 ...
